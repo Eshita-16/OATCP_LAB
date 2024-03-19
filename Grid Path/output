@@ -1,0 +1,22 @@
+PS C:\Users\poona\OneDrive\Desktop\OATCP> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'GRID PATH.exe'
+4
+. * . .
+. . . *
+* . . .
+3
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'       
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'GRID PATH.exe'
+2
+. *
+* .
+0
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'       
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'GRID PATH.exe'
+5
+. . . * .
+. . * . .
+. . . * *
+* . . * .
+* . . . .
+9
