@@ -1,1 +1,18 @@
+PS C:\Users\poona\OneDrive\Desktop\OATCP> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
 
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'largestnumber.exe'
+Enter numbers separated by spaces or commas: 10,2
+Output: "210"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'largestnumber.exe'
+Enter numbers separated by spaces or commas: 3,30,34,5,9
+Output: "9534330"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'largestnumber.exe'
+Enter numbers separated by spaces or commas: 12,23,13,45,8,92
+Output: "92845231312"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'largestnumber.exe'
+Enter numbers separated by spaces or commas: 18,27,93,86,43,98,101,202
+Output: "989386432720218101"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output>
