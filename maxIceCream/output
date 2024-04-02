@@ -1,0 +1,33 @@
+PS C:\Users\poona\OneDrive\Desktop\OATCP> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'maxIceCream.exe'
+Enter the number of ice cream bars: 5
+Enter the prices of each ice cream bar: 1 3 2 4 1 
+Enter the number of coins: 7
+Maximum ice cream bars the boy can buy: 4
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'maxIceCream.exe'
+Enter the number of ice cream bars: 6
+Enter the prices of each ice cream bar: 10 6 8 7 7 8
+Enter the number of coins: 5
+Maximum ice cream bars the boy can buy: 0
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'maxIceCream.
+                                               > & .\'maxIceCream.exe'
+Enter the number of ice cream bars: 7
+Enter the prices of each ice cream bar: 6 5 8 9 10 7 12 
+Enter the number of coins: 4
+Maximum ice cream bars the boy can buy: 0
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'maxIceCream.exe'
+Enter the number of ice cream bars: 4
+Enter the prices of each ice cream bar: 3 4 2 5
+Enter the number of coins: 0
+Maximum ice cream bars the boy can buy: 0
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'maxIceCream.exe'
+Enter the number of ice cream bars: 6
+Enter the prices of each ice cream bar: 4 2 7 3 1 3 
+Enter the number of coins: 13
+Maximum ice cream bars the boy can buy: 5
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'maxIceCream.exe'
