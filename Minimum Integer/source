@@ -1,1 +1,68 @@
+#include <iostream>
+#include <string>
+#include <stack>
+#include <algorithm> // For reverse
+
+using namespace std;
+
+class Solution {
+public:
+    string removeKdigits(string S, int K) {
+        int n = S.length();
+        if (K == n) {
+            return "0";
+        }
+        stack<char> st;
+        for (int i = 0; i < n; i++) {
+            while (!st.empty() && K > 0 && st.top() > S[i]) {
+                st.pop();
+                K--;
+            }
+            st.push(S[i]);
+        }
+        while (K > 0) {
+            st.pop();
+            K--;
+        }
+        string ans = "";
+        while (!st.empty()) {
+            ans += st.top();
+            st.pop();
+        }
+        reverse(ans.begin(), ans.end());
+        int i;
+        for (i = 0; i < ans.size(); i++) {
+            if (ans[i] != '0') {
+                break;
+            }
+        }
+        if (i == ans.size()) {
+            return "0";
+        }
+        return ans.substr(i);
+    }
+};
+
+int main() {
+    Solution sol;
+    string num;
+    int k;
+
+    // Read input
+    cout << "Input: num = \"";
+    cin >> num;
+    cout << "\", k = ";
+    cin >> k;
+
+    // Output the input
+    cout << "Input: num = \"" << num << "\", k = " << k << endl;
+
+    // Get the smallest integer after removing K digits
+    string smallest_integer = sol.removeKdigits(num, k);
+
+    // Output the result
+    cout << "Output: \"" << smallest_integer << "\"" << endl;
+
+    return 0;
+}
 
