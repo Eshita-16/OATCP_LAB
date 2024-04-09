@@ -1,1 +1,33 @@
+PS C:\Users\poona\OneDrive\Desktop\OATCP> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'removeKdigits.exe'
+Input: num = 1432219
+k = 3
+Input: num = "1432219", k = 3
+Output: "1219"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'removeKdigits.exe'
+Input: num = 10200
+k = 1
+Input: num = "10200", k = 1
+Output: "200"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'removeKdigits.exe'
+Input: num = 10
+k = 2
+Input: num = "10", k = 2
+Output: "0"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'removeKdigits.exe'
+Input: num = 653821
+k = 3
+Input: num = "653821", k = 3
+Output: "321"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> & .\'removeKdigits.exe'
+Input: num = 2478905
+k = 4
+Input: num = "2478905", k = 4
+Output: "205"
+PS C:\Users\poona\OneDrive\Desktop\OATCP\output> cd 'c:\Users\poona\OneDrive\Desktop\OATCP\output'
 
