@@ -12,4 +12,4 @@ Sure! Here's a simplified version of the algorithm:
    - Write the result to the output file.
    - Close both input and output files.
 
-
+## Time Complexity: \( O(n) \), Space Complexity: \( O(1) \)
