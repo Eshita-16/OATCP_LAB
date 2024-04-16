@@ -1,4 +1,4 @@
-Sure! Here's a simplified version of the algorithm:
+Algorithm:
 
 1. totalHammingDistance Function:
    - For each bit position from 0 to 31:
